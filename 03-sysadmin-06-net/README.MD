@@ -51,5 +51,5 @@
 8. Проверьте PTR записи для IP адресов из задания 7. Какое доменное имя привязано к IP? воспользуйтесь утилитой dig.
    * 8.8.8.8 - ptr запись 8.8.8.8.in-addr.arpa.
    * 8.8.4.4 - ptr запись 4.4.8.8.in-addr.arpa.
-   * к IP привязано имя dns.google.
+   * к IP привязано имя dns.google.  
 ![alt text](pictures/03-sysadmin-06-net-10.PNG "dig -x")  
