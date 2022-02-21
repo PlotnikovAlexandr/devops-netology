@@ -27,3 +27,4 @@
 - UDP порт 53 - локальный демон DNS, порт испульзуется для отправки запросов на DNS сервер.
 
 5. Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
+   - Диаграмма домашней сети [Home_Net_Diagram.drawio](https://github.com/PlotnikovAlexandr/devops-netology/blob/b273bed9f39d2dcc189aa70db77a1b21a396897e/03-sysadmin-08-net/Home_net_Diagram.drawio)
