@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T09:26:08.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="hai_S8czLt4EUrXTDyAg" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T09:46:16.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="Dp3Bz2UvOCsG3Bqwnaqo" version="16.6.1" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="485" y="360" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jtc_E76_hGR1CpZQ2M6x-31" value="Router" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="565" y="212.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="565" y="210" width="75" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Jtc_E76_hGR1CpZQ2M6x-32" value="WiFi Access Point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="280" width="60" height="30" as="geometry" />
@@ -82,23 +82,11 @@
         <mxCell id="Jtc_E76_hGR1CpZQ2M6x-51" value="Proxmox Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;strokeWidth=12;" vertex="1" parent="1">
           <mxGeometry x="590" y="605" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Jtc_E76_hGR1CpZQ2M6x-53" value="VLAN1&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22fontColor%3D%230066CC%3BverticalAlign%3Dtop%3BverticalLabelPosition%3Dbottom%3BlabelPosition%3Dcenter%3Balign%3Dcenter%3Bhtml%3D1%3BoutlineConnect%3D0%3BfillColor%3D%23CCCCCC%3BstrokeColor%3D%236881B3%3BgradientColor%3Dnone%3BgradientDirection%3Dnorth%3BstrokeWidth%3D2%3Bshape%3Dmxgraph.networks.mobile%3Bshadow%3D1%3BfontSize%3D7%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2270%22%20y%3D%22110%22%20width%3D%2250%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="400" y="250" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jtc_E76_hGR1CpZQ2M6x-54" value="VLAN2&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22fontColor%3D%230066CC%3BverticalAlign%3Dtop%3BverticalLabelPosition%3Dbottom%3BlabelPosition%3Dcenter%3Balign%3Dcenter%3Bhtml%3D1%3BoutlineConnect%3D0%3BfillColor%3D%23CCCCCC%3BstrokeColor%3D%236881B3%3BgradientColor%3Dnone%3BgradientDirection%3Dnorth%3BstrokeWidth%3D2%3Bshape%3Dmxgraph.networks.mobile%3Bshadow%3D1%3BfontSize%3D7%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2270%22%20y%3D%22110%22%20width%3D%2250%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="360" y="410" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jtc_E76_hGR1CpZQ2M6x-55" value="VLAN3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="460" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Jtc_E76_hGR1CpZQ2M6x-56" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;comic=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Jtc_E76_hGR1CpZQ2M6x-48" target="Jtc_E76_hGR1CpZQ2M6x-4">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="693.755" y="340" as="sourcePoint" />
             <mxPoint x="690.005" y="250" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Jtc_E76_hGR1CpZQ2M6x-57" value="VLAN4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;rotation=5;" vertex="1" parent="1">
-          <mxGeometry x="645" y="265" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jtc_E76_hGR1CpZQ2M6x-58" value="Internet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="505" y="40" width="60" height="30" as="geometry" />
