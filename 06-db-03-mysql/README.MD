@@ -3,6 +3,7 @@
 Задача 1. Ответ:
 --
 ![alt text](pictures/docker-pull.PNG "docker pull")
+- sudo docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=password -ti -p 3306:3306 -v mysql_db:/etc/mysql/ mysql:8.0
 ![alt text](pictures/db_status.PNG "db status")
 ![alt text](pictures/show_tables.PNG "show tables")
 
