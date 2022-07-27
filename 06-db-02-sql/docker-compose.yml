@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.9'
 services:
     postgres:
         image: postgres:12
@@ -11,6 +11,4 @@ services:
         volumes:
           - ./db-backups:/var/lib/postgresql
           - ./db-data:/var/lib/postgresql/data
-          - ./sql/create-db.sql:/docker-entrypoint-initdb.d/create-db.sql
-          - ./sql/create-tables.sql:/docker-entrypoint-initdb.d/create-tables.sql
-          - ./sql/grant-permissions.sql:/docker-entrypoint-initdb.d/grant-permissions.sql
+          - ./sql:/docker-entrypoint-initdb.d
