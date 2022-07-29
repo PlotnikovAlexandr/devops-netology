@@ -10,6 +10,11 @@
 ![alt text](pictures/initdb.PNG "InitDB")
 Количество записей каждой таблицы:
 ![alt text](pictures/counts.PNG "Counts")
+SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
+список пользователей с правами над таблицами test_db
+![alt text](pictures/users_permisions.PNG "Permissions")
+Описание таблиц (describe)
+![alt text](pictures/describe.PNG "Describe")
 
 Задача 4. Ответ:
 --
