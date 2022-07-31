@@ -11,6 +11,7 @@
 ![alt text](pictures/elastic_get.png "GET")
 
 Elasticsearch.yaml: в репозитории github
+- https://github.com/PlotnikovAlexandr/devops-netology/blob/cdb05d1a1c58ecd4811661bec45d5686362a6570/06-db-05-elasticsearch/elasticsearch.yml
 
 
 Задача 2. Ответ:
