@@ -17,9 +17,9 @@ Elasticsearch.yaml: в репозитории github
 Задача 2. Ответ:
 -
 Создаем индексы:
-- curl -u elastic:0hQFSPZYWTDE1M3smaXF -k -X PUT https://localhost:9200/ind-1 -H 'Content-Type: application/json' -d'{ "settings": {{ "number_of_shards": 1,  "number_of_replicas": 0 }}'
-- curl -u elastic:0hQFSPZYWTDE1M3smaXF -k -X PUT https://localhost:9200/ind-2 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 2,  "number_of_replicas": 1 }}'
-- curl -u elastic:0hQFSPZYWTDE1M3smaXF -k -X PUT https://localhost:9200/ind-3 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 4,  "number_of_replicas": 2 }}'
+- curl -u elastic:'password' -k -X PUT https://localhost:9200/ind-1 -H 'Content-Type: application/json' -d'{ "settings": {{ "number_of_shards": 1,  "number_of_replicas": 0 }}'
+- curl -u elastic:'password' -k -X PUT https://localhost:9200/ind-2 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 2,  "number_of_replicas": 1 }}'
+- curl -u elastic:'password' -k -X PUT https://localhost:9200/ind-3 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 4,  "number_of_replicas": 2 }}'
 
 - Список созданных индексов:
 ![alt text](pictures/indexies.png "Indexies")
