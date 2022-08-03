@@ -6,3 +6,4 @@
 - В случае с AWS можно использовать Cloud Formation, а для Yandex Cloud подходит Packer.
 
 Ссылка на репозиторий с исходной конфигурацией терраформа.
+https://github.com/PlotnikovAlexandr/devops-netology/tree/main/07-terraform-02-syntax/terraform
