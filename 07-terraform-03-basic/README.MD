@@ -15,3 +15,6 @@
 ![alt text](pictures/tf-plan-2.PNG "Terraform Plan 2")
 
 (Вывод terraform plan не поместился полностью, пришлось двумя скриншотами делать ответ)
+
+Дополнительно main.tf
+![alt text](pictures/main-tf.PNG "Main.tf")
