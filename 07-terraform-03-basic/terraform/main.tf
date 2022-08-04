@@ -1,10 +1,10 @@
-data "yandex_compute_instance" "ubuntu" {
-  filter {
-    name   = "name"
-    values = ["ubuntu-20.04-*"]
+locals {
+
+  instances = {
+    stage = "Standard-v1"
+    prod = "Standard-v2"
   }
 }
-
 terraform {
   required_providers {
     yandex = {
@@ -13,15 +13,16 @@ terraform {
   }
 }
 provider "yandex" {
-  service_account_key_file = "key.json"
+  service_account_key_file = "../key.json"
   cloud_id  = "${var.yandex_cloud_id}"
   folder_id = "${var.yandex_folder_id}"
 }
 
-resource "yandex_compute_instance" "vm-1" {
+resource "yandex_compute_instance" "vm" {
+  for_each = local.instances
 
-  name        = "ubuntu-vm"
-  platform_id = "standard-v1"
+  name        = "ubuntu-vm-${each.key}"
+  platform_id = each.value
 
   resources {
     cores  = 2
@@ -30,7 +31,7 @@ resource "yandex_compute_instance" "vm-1" {
 
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_instance.ubuntu.id
+      image_id = "fd8f1tik9a7ap9ik2dg1"
     }
   }
   network_interface {
